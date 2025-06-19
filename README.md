@@ -81,6 +81,7 @@ class_names.txt
 To view classification report and confusion matrix:
 
 python model_evaluation.py
+
 Outputs include accuracy, precision, recall, and F1-score per class
 
 A heatmap visual of the confusion matrix will be displayed
@@ -89,6 +90,7 @@ A heatmap visual of the confusion matrix will be displayed
 To launch the real-time waste classification interface:
 
 python real_time_detection.py
+
 A green bounding box is displayed — place your object inside it
 
 Background is blurred for focus; face detection is used to block predictions if a human face is detected
@@ -116,4 +118,4 @@ Please credit the original TrashNet dataset creators and cite this repository if
 
 # Additional Info
 A detailed breakdown of the methodology, architecture, evaluation, and learnings can be found in:
- Project_Report.pdf
+ ./Project_Report.pdf
