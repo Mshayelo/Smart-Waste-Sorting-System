@@ -118,4 +118,4 @@ Please credit the original TrashNet dataset creators and cite this repository if
 
 # Additional Info
 A detailed breakdown of the methodology, architecture, evaluation, and learnings can be found in:
- ./Project_Report.pdf
+  **[Project_Report.pdf](./Project_Report.pdf)**
