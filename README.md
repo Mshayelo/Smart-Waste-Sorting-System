@@ -42,12 +42,12 @@ This system is trained on the **TrashNet Dataset** — a public dataset for garb
 2. Place the extracted folders like this:
 
 My_Dataset/
-└── Garbage classification/
-├── cardboard/
-├── glass/
-├── metal/
-├── paper/
-└── plastic/
+Garbage classification/
+cardboard/
+glass/
+metal/
+paper/
+plastic/
 
 
 3. Run the script below to automatically split the dataset:
@@ -80,7 +80,7 @@ Class names saved in:
 ### Model Evaluation
 To view classification report and confusion matrix:
 
- #### python model_evaluation.py
+#### python model_evaluation.py
 
 Outputs include accuracy, precision, recall, and F1-score per class
 
@@ -89,7 +89,7 @@ A heatmap visual of the confusion matrix will be displayed
 ### Real-Time Classification (Webcam)
 To launch the real-time waste classification interface:
 
- #### python real_time_detection.py
+#### python real_time_detection.py
 
 A green bounding box is displayed — place your object inside it
 
