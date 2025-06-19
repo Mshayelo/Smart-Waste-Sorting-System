@@ -38,12 +38,14 @@ Run split_dataset.py to generate train/val/test folders automatically.
 To train the model and save it as garbage_classifier.h5:
 
 python training_model.py
+
 Fine-tuning is handled inside the same script after initial training.
 
  # Model Evaluation
 To view performance metrics, confusion matrix, and classification report:
 
 python model_evaluation.py and  python model_perfomance.py
+
 Graphs (accuracy/loss) will also be shown using matplotlib.
 
  # Real-Time Classification
