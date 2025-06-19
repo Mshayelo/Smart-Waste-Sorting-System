@@ -59,7 +59,7 @@ This system is trained on the **TrashNet Dataset** — a public dataset for garb
 
    #### python split_dataset.py
 
-# Setup & Installation
+## Setup & Installation
 
 ### Clone the repository:
 
@@ -107,7 +107,7 @@ To visualize the training and validation accuracy/loss:
 
 This will load the saved training history and plot performance graphs over the epochs.
 
-# Skills Demonstrated
+## Skills Demonstrated
  Transfer Learning & MobileNetV2
 
  Data Augmentation & Image Preprocessing
