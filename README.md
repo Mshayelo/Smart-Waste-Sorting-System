@@ -1,4 +1,4 @@
-Smart-Waste-Sorting-System
+# Smart-Waste-Sorting-System
 
 An intelligent vision-based waste classification system that identifies and classifies recyclable waste into five categories: **plastic**, **paper**, **metal**, **glass**, and **cardboard**.  
 
