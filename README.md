@@ -103,7 +103,7 @@ Background is blurred for focus; face detection is used to block predictions if 
 ### Training Metrics Visualization
 To visualize the training and validation accuracy/loss:
 
-python model_perfomance.py
+#### python model_perfomance.py
 
 This will load the saved training history and plot performance graphs over the epochs.
 
