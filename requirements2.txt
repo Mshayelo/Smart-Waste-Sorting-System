@@ -1,0 +1,29 @@
+
+# Core Libraries for TensorFlow and Model Training
+
+tensorflow           # Core deep learning framework, used for training models
+numpy                  # Library for numerical computations, required by TensorFlow
+matplotlib              # Plotting library, used for visualizing training and evaluation metrics
+seaborn               # Advanced data visualization library for plotting confusion matrix
+scikit-learn            # Machine learning library, used for generating classification reports and metrics
+opencv-python       # Computer vision library for real-time predictions and webcam usage
+Pillow                  # Image processing library, required by TensorFlow for image manipulation
+h5py                   # HDF5 file support, required for loading/saving models in HDF5 format
+keras                  # High-level neural networks API (part of TensorFlow)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
