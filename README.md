@@ -41,18 +41,23 @@ This system is trained on the **TrashNet Dataset** — a public dataset for garb
 
 2. Place the extracted folders like this:
 
-My_Dataset/
-Garbage classification/
-cardboard/
-glass/
-metal/
-paper/
-plastic/
+   My_Dataset/
+   Garbage classification/
+   
+   cardboard/
+   
+   glass/
+   
+   metal/
+   
+   paper/
+   
+   plastic/
 
 
 3. Run the script below to automatically split the dataset:
 
-#### python split_dataset.py
+   #### python split_dataset.py
 
 # Setup & Installation
 
