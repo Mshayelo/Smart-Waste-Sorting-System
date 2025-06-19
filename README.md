@@ -55,19 +55,19 @@ My_Dataset/
 python split_dataset.py
 
 # Setup & Installation
-Clone the repository:
+
+### Clone the repository:
 
 git clone https://github.com/your-username/smart-waste-sorting-system.git
 
 cd smart-waste-sorting-system
 
-# Install dependencies:
+### Install dependencies:
 
 pip install -r requirements.txt
 
-# Model Training
+### Model Training
 To train the model (including fine-tuning) and save it:
-
 
 python training_model.py
 
@@ -77,7 +77,7 @@ Exercise 3 Assessment/Model/garbage_classifier.h5
 Class names saved in:
 class_names.txt
 
-# Model Evaluation
+### Model Evaluation
 To view classification report and confusion matrix:
 
 python model_evaluation.py
@@ -85,7 +85,7 @@ Outputs include accuracy, precision, recall, and F1-score per class
 
 A heatmap visual of the confusion matrix will be displayed
 
-# Real-Time Classification (Webcam)
+### Real-Time Classification (Webcam)
 To launch the real-time waste classification interface:
 
 python real_time_detection.py
@@ -93,7 +93,7 @@ A green bounding box is displayed — place your object inside it
 
 Background is blurred for focus; face detection is used to block predictions if a human face is detected
 
-# Training Metrics Visualization
+### Training Metrics Visualization
 To visualize the training and validation accuracy/loss:
 
 python model_perfomance.py
