@@ -52,7 +52,7 @@ My_Dataset/
 
 3. Run the script below to automatically split the dataset:
 
-python split_dataset.py
+#### python split_dataset.py
 
 # Setup & Installation
 
@@ -64,23 +64,23 @@ cd smart-waste-sorting-system
 
 ### Install dependencies:
 
-pip install -r requirements.txt
+#### pip install -r requirements.txt
 
 ### Model Training
 To train the model (including fine-tuning) and save it:
 
-python training_model.py
+#### python training_model.py
 
 Trained model will be saved to:
-Exercise 3 Assessment/Model/garbage_classifier.h5
+#### Exercise 3 Assessment/Model/garbage_classifier.h5
 
 Class names saved in:
-class_names.txt
+#### class_names.txt
 
 ### Model Evaluation
 To view classification report and confusion matrix:
 
-python model_evaluation.py
+ #### python model_evaluation.py
 
 Outputs include accuracy, precision, recall, and F1-score per class
 
@@ -89,7 +89,7 @@ A heatmap visual of the confusion matrix will be displayed
 ### Real-Time Classification (Webcam)
 To launch the real-time waste classification interface:
 
-python real_time_detection.py
+ #### python real_time_detection.py
 
 A green bounding box is displayed — place your object inside it
 
