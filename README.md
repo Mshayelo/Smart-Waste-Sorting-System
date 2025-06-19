@@ -21,9 +21,10 @@ An intelligent vision-based waste classification system that identifies and clas
 
 1. **Clone this repository:**
 
-git clone https://github.com/your-username/smart-waste-sorting-system.git
-cd smart-waste-sorting-system
-Install required dependencies:
+ git clone https://github.com/your-username/smart-waste-sorting-system.git  
+ cd smart-waste-sorting-system
+
+# Install required dependencies:
 
 pip install -r requirements.txt
 
@@ -42,7 +43,7 @@ Fine-tuning is handled inside the same script after initial training.
  # Model Evaluation
 To view performance metrics, confusion matrix, and classification report:
 
-python model_evaluation.py
+python model_evaluation.py and  python model_perfomance.py
 Graphs (accuracy/loss) will also be shown using matplotlib.
 
  # Real-Time Classification
